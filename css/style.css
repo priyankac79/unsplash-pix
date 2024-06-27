@@ -148,6 +148,7 @@ form {
     }
 
 	.gallery {
-		columns: 2
+		columns: 2;
+        padding: 20px;
 	}
 }
