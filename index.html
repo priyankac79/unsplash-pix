@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnsplashPix</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="header-content">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <form action="search.html">
+                <input type="text" autocomplete="off" name="search" class="search-box"
+                    placeholder="Search photos and illustrations">
+                <button class="search-btn">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="image-popup hide">
+        <button class="close-btn">X</button>
+        <a href="#" class="download-btn">Download</a>
+        <img src="" class="large-img" alt="Large Image">
+        <button class="controls previous-btn">
+            <img src="img/previous.png" alt="Previous Image">
+        </button>
+        <button class="controls next-btn">
+            <img src="img/next.png" alt="Next Image">
+        </button>
+    </div>
+
+    <section class="gallery">
+        <!-- <img src="img/img(1).png" alt="Image" class="gallery-img"> -->
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
